@@ -13,26 +13,36 @@
         android:id="@+id/textView3"
         android:layout_width="290dp"
         android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:text="Minha Localização"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Localização"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13" />
+
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="226dp"
-        android:layout_height="125dp"
-        android:layout_weight="0.50
-"
-        app:srcCompat="@drawable/earth" />
+        android:layout_width="221dp"
+        android:layout_height="166dp"
+        app:srcCompat="@drawable/local" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
-        android:text="Latitude"
+        android:text="Latitude:"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textStyle="bold" />
 
@@ -42,13 +52,13 @@
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
         android:textSize="24sp"
-        tools:text="Aqui vem a Latitude" />
+        tools:text="Lat" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
-        android:text="Longitude"
+        android:text="Longitude:"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textStyle="bold" />
 
@@ -58,7 +68,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
         android:textSize="24sp"
-        tools:text="Aqui vem a longitude" />
+        tools:text="Long" />
 
 </LinearLayout>
 
